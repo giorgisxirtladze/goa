@@ -1,0 +1,1 @@
+list1=[88, 31.134, "GOA", False, [9, 3, 0], 71, 5.936, "SKHIRTLADZE", True, [4, 5, 6]]
