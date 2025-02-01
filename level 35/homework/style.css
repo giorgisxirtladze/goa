@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.color-box p {
+    margin: 0;
+}

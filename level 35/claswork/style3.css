@@ -1,0 +1,15 @@
+.parent-div {
+    width: 70%;
+    height: 600px;
+    background-color: #3498db;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-div {
+    width: 25%;
+    height: 10%;
+    background-color: #e74c3c;
+}

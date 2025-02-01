@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rgb1 {
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.rgb2 {
+    color: white;
+    background-color: rgb(0, 255, 0);
+}
+
+.rgb3 {
+    color: white;
+    background-color: rgb(0, 0, 255);
+}
+
+.rgb4 {
+    color: white;
+    background-color: rgb(135, 206, 235);
+}
+
+.rgb5 {
+    color: white;
+    background-color: rgb(255, 182, 193);
+}
+
+.hex1 {
+    color: white;
+    background-color: #FF5733;
+}
+
+.hex2 {
+    color: white;
+    background-color: #00FF00;
+}
+
+.hex3 {
+    color: white;
+    background-color: #0000FF;
+}
+
+.hex4 {
+    color: white;
+    background-color: #FFD700;
+}
+
+.hex5 {
+    color: white;
+    background-color: #800080;
+}
