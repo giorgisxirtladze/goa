@@ -1,0 +1,71 @@
+body {
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.word {
+    position: absolute;
+}
+
+.hello {
+    top: 20px;
+    right: 50px;
+    text-decoration: underline;
+    color: green;
+}
+
+.world {
+    top: 50px;
+    left: 80px;
+    text-decoration: line-through;
+}
+
+.symbols {
+    top: 90px;
+    left: 30px;
+    color: red;
+}
+
+.goal {
+    top: 130px;
+    left: 150px;
+    text-decoration: underline;
+}
+
+.oriented {
+    top: 170px;
+    left: 180px;
+}
+
+.academy {
+    top: 220px;
+    left: 40px;
+    text-decoration: line-through;
+}
+
+.is {
+    top: 260px;
+    left: 60px;
+}
+
+.the {
+    top: 300px;
+    left: 250px;
+    text-decoration: underline;
+    color: green;
+}
+
+.best {
+    top: 350px;
+    left: 150px;
+    text-decoration: underline;
+    color: gray;
+}
+
+.one {
+    bottom: 20px;
+    right: 50px;
+    text-decoration: underline;
+}
