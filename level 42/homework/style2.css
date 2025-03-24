@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #a3cc00;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+}
+
+article {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f8f5dc;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    background-color: #ddeede;
+    padding: 20px;
+}

@@ -1,0 +1,43 @@
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
+}
+
+.paragraph {
+    margin: 20px;
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: lightgray;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.shadow-box {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.negative-margin {
+    margin-top: -10px;
+    color: red;
+}
