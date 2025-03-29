@@ -1,0 +1,9 @@
+.background-box {
+    width: 500px;
+    height: 500px;
+    background-image: url('your-image.jpg'); /* შეცვალეთ სურათის ბმული */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
