@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    gap: 10px;
+    padding: 10px;
+    background: #eee;
+  }
+  
+  .grid-item {
+    background: orange;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .item1 {
+    grid-column: span 2;
+  }
+  
+  .item2 {
+    grid-row: span 2;
+  }
+  
+  .item3 {
+    grid-row: span 2;
+  }
+  
+  .item7 {
+    grid-column: span 2;
+  }
+  

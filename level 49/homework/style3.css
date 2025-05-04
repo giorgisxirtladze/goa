@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      "nav header"
+      "nav article"
+      "nav ads"
+      "nav footer";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    height: 100vh;
+    background: white;
+    padding: 10px;
+  }
+  
+  .nav {
+    grid-area: nav;
+    background: yellowgreen;
+    padding: 20px;
+  }
+  
+  .header {
+    grid-area: header;
+    background: yellowgreen;
+    padding: 20px;
+  }
+  
+  .article {
+    grid-area: article;
+    background: yellowgreen;
+    padding: 20px;
+  }
+  
+  .ads {
+    grid-area: ads;
+    background: yellowgreen;
+    padding: 20px;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background: yellowgreen;
+    padding: 20px;
+  }
+  

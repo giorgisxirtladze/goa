@@ -1,0 +1,45 @@
+@keyframes moveRight { to { transform: translateX(200px); } }
+@keyframes bgColorChange { to { background-color: red; } }
+@keyframes rotate360 { to { transform: rotate(360deg); } }
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-100px); }
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes fadeInOnce { to { opacity: 1; } }
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+@keyframes slideIn { to { transform: translateX(0); } }
+@keyframes fadeIn { to { opacity: 1; } }
+@keyframes fadeEffect { to { opacity: 0; } }
+
+div { width: 100px; height: 100px; margin: 10px; }
+
+.box           { background: red;    animation: moveRight 2s linear; }
+.color-box     { background: blue;   animation: bgColorChange 5s forwards; }
+.rotating      { background: green;  animation: rotate360 2s linear; }
+.pulse         { background: orange; animation: pulse 1s infinite; }
+
+.ball          { background: purple; border-radius: 50%; animation: bounce 1s ease 3; }
+.spinner       { border: 5px solid lightgray; border-top: 5px solid black; border-radius: 50%; animation: spin 1s infinite; }
+
+.one-time      { background: teal;   animation: fadeInOnce 2s forwards; }
+.once          { background: #ddd;   animation: float 2s 1; }
+.loop          { background: #ddd;   animation: float 2s infinite; }
+
+.delayed       { background: pink;   transform: translateX(-100px); animation: slideIn 1s ease 2s forwards; }
+
+.seq1, .seq2, .seq3 {
+  background: gray; opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+.seq2 { animation-delay: 1s; }
+.seq3 { animation-delay: 2s; }
+
+.fade-long     { background: brown;  animation: fadeEffect 10s linear; }

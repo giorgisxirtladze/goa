@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav article"
+      "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+    background: white;
+    padding: 10px;
+  }
+  
+  .header {
+    grid-area: header;
+    background: lightblue;
+    padding: 20px;
+  }
+  
+  .nav {
+    grid-area: nav;
+    background: lightgreen;
+    padding: 20px;
+  }
+  
+  .article {
+    grid-area: article;
+    background: lightyellow;
+    padding: 20px;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background: lightcoral;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Animations</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { display: flex; flex-wrap: wrap; gap: 10px; padding: 20px; }
+  </style>
+</head>
+<body>
+
+  <div class="box"></div>
+  <div class="color-box"></div>
+  <div class="rotating"></div>
+  <div class="pulse"></div>
+
+  <div class="ball"></div>
+  <div class="spinner"></div>
+  <div class="one-time"></div>
+  <div id="toggleBox" class="once" style="width:100px;height:100px;background:#ddd;margin:10px;"></div>
+
+  <div class="delayed"></div>
+  <div class="seq1"></div>
+  <div class="seq2"></div>
+  <div class="seq3"></div>
+  <div class="fade-long"></div>
+
+  <script>
+    const box = document.getElementById('toggleBox');
+    box.addEventListener('click', () => {
+      box.classList.toggle('loop');
+      box.classList.toggle('once');
+    });
+  </script>
+</body>
+</html>
