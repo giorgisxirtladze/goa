@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>პარაგრაფისა და ღილაკის შეცვლა</title>
+</head>
+<body>
+
+  <p id="myParagraph">ეს არის საწყისი პარაგრაფი.</p>
+
+  <button id="myButton">დააჭირე აქ</button>
+
+  <script>
+    const paragraph = document.getElementById("myParagraph");
+    paragraph.textContent = "პარაგრაფის ტექსტი შეიცვალა!";
+
+    const button = document.getElementById("myButton");
+    button.textContent = "ტექსტი შეცვლილია";
+  </script>
+
+</body>
+</html>
