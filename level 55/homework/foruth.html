@@ -1,0 +1,14 @@
+<form id="form4">
+    <textarea id="message" placeholder="შეტყობინება"></textarea>
+    <button type="submit">გაგზავნა</button>
+</form>
+<p id="output4"></p>
+
+<script>
+    document.getElementById("form4").addEventListener("submit", function(event) {
+        event.preventDefault();
+        let message = document.getElementById("message").value;
+        document.getElementById("output4").innerText = message;
+        document.body.style.backgroundColor = "lightyellow";
+    });
+</script>

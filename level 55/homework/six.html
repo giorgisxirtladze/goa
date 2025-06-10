@@ -1,0 +1,13 @@
+<form id="form6">
+    <input type="text" id="textInput" placeholder="ტექსტი">
+    <button type="submit">დათვლა</button>
+</form>
+<p id="output6"></p>
+
+<script>
+    document.getElementById("form6").addEventListener("submit", function(event) {
+        event.preventDefault();
+        let text = document.getElementById("textInput").value;
+        document.getElementById("output6").innerText = `სიმბოლოების რაოდენობა: ${text.length}`;
+    });
+</script>

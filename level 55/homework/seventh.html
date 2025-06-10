@@ -1,0 +1,12 @@
+<form id="form7">
+    <input type="text" id="colorInput" placeholder="შეიყვანე ფერი">
+    <button type="submit">შეცვლა</button>
+</form>
+
+<script>
+    document.getElementById("form7").addEventListener("submit", function(event) {
+        event.preventDefault();
+        let color = document.getElementById("colorInput").value;
+        document.body.style.backgroundColor = color;
+    });
+</script>

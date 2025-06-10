@@ -1,0 +1,8 @@
+<input type="range" id="rangeInput" min="0" max="100">
+<span id="rangeValue">Current value: 50</span>
+
+<script>
+    document.getElementById("rangeInput").addEventListener("input", function() {
+        document.getElementById("rangeValue").innerText = `Current value: ${this.value}`;
+    });
+</script>

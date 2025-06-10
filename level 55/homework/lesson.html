@@ -1,0 +1,15 @@
+<form id="form1">
+    <input type="number" id="age" placeholder="ასაკი">
+    <input type="text" id="phrase" placeholder="საყვარელი ფრაზა">
+    <button type="submit">დადასტურება</button>
+</form>
+<h2 id="output1"></h2>
+
+<script>
+    document.getElementById("form1").addEventListener("submit", function(event) {
+        event.preventDefault();
+        let age = document.getElementById("age").value;
+        let phrase = document.getElementById("phrase").value;
+        document.getElementById("output1").innerText = `თქვენი ასაკია ${age} და საყვარელი ფრაზაა: ${phrase}`;
+    });
+</script>

@@ -1,0 +1,26 @@
+<form id="form10">
+    <input type="text" name="username" placeholder="სახელი">
+    <button type="submit">გაგზავნა</button>
+</form>
+<script>
+    document.getElementById("form10").addEventListener("submit", function(event) {
+        event.preventDefault();
+        console.log(document.querySelector('[name="username"]').value);
+    });
+</script>
+
+<input type="text" name="email" placeholder="ელ.ფოსტა">
+<button onclick="clearEmail()">გასუფთავება</button>
+<script>
+    function clearEmail() {
+        document.querySelector('[name="email"]').value = "";
+    }
+</script>
+
+<input type="text" name="phone" placeholder="ტელეფონი">
+<button onclick="alertPhone()">ჩვენება</button>
+<script>
+    function alertPhone() {
+        alert("შენი ნომერი: " + document.querySelector('[name="phone"]').value);
+    }
+</script>
