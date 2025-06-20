@@ -17,3 +17,4 @@
         alert("შენ აირჩიე: " + confirmation);
     };
 </script>
+w
