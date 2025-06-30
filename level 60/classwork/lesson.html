@@ -1,0 +1,12 @@
+function checkEvenOdd() {
+  const number = parseInt(document.getElementById("userNumber").value);
+  const resultElement = document.getElementById("result");
+
+  if (isNaN(number)) {
+    resultElement.textContent = "გთხოვთ შეიყვანოთ სწორი რიცხვი.";
+  } else if (number % 2 === 0) {
+    resultElement.textContent = "რიცხვი ლუწია";
+  } else {
+    resultElement.textContent = "რიცხვი კენტია";
+  }
+}
