@@ -1,0 +1,8 @@
+#movingBox {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(169, 253, 0);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
